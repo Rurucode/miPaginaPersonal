@@ -3,5 +3,76 @@
     margin: 0;
     padding: 0;
     border: 0;
-	list-style: none;
+    list-style: none;
+    font-family: 'Grechen Fuemen', cursive;
+ }
+
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;    
+}
+
+#home {
+    width: 10vw;
+    height: 10vh;
+
+}
+
+#biografia, #contacto, #portfolio {
+    width: 20vw;
+    height: 50vh;
+    /* border: 2px solid black; */
+}
+
+#portfolio {
+    margin-right: 10vw;
+}
+
+/* header {
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+} */
+
+body {
+    background-image: url(../assets/img/fondo2.jpg);
+}
+
+img {
+    /* object-fit: contain; */
+    width: 100%;
+}
+
+
+
+#portfolio img {
+    width: 170%;
+    margin-right: 15%;
+}
+
+a {
+    width: 100%;
+    height: 100%;
+}
+
+#foto1 {
+    margin-top: 27%;
+}
+
+#foto2 {
+    margin-top: 15%;
+    width: 90%;
+}
+
+p {
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+}
+
+#biografia p {
+    margin-top: 3%;
 }
