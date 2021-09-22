@@ -6,11 +6,9 @@
     list-style: none;
     font-family: 'Grechen Fuemen', cursive;
  }
+ 
 
-body {
-    overflow: hidden;
 
-}
 
  /* HEADER/TITULO */
  #titulo h1 {
@@ -64,21 +62,43 @@ body {
 
   /* ------------FIN HEADER--------------- */
 
+  /* -------------MAIN------------- */
+  /* ------FONDO-------- */
+body {
+    /* background-image: url(../assets/img/fondo2.jpg); */
+    background-image: url(/assets/img/xxxxx.jpg);
+    /* background-color: blue; */
+    object-fit: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+body {
+    width: 100vw;
+    height: 1080px;
+}
+main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+
 
 /* NAVEGACION */
  nav {
      width: 30vw;
-     height: 100%;
+     height: 100vh;
      display: flex;
  }
 
 ul.navfotos {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     width: 9vw;
     height: 100%;
     margin-left: 4em ;
+    margin-top: 13em;
 }
 
 
@@ -154,99 +174,8 @@ ul.nombres {
     margin-bottom: 8em;
 }
 
-
-
-
-
-
-/* ------FONDO-------- */
-body {
-    /* background-image: url(../assets/img/fondo2.jpg); */
-    background-image: url(/assets/img/xxxxx.jpg);
-    object-fit: contain;
-    background-repeat: no-repeat;
-    background-size: cover  ;
-}
-
-/* -------------MAIN------------- */
-
-main {
-    width: 100%;
-    height: 85vh;
-    display: flex;
-    justify-content: space-around;
-}
-
-section#biog {
-    display: flex;
-    align-items: flex-end;
-    flex-direction: column;
-    height: 100%;
-}
-
-#biog {
-    display: flex;
-    width: 100%;
-}
-
-#biog img {
-    width: 30%;
-    margin-bottom: 0em;
-    transition: 4s;
-    flex-wrap: nowrap;
-
-}
-
-#coche:hover {
-    transform: translateX(-80em);
-}
-
-
-
-#texto {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 60%;
-    height: 60%;
-    border-radius: 6px 6px 6px 6px;
-    margin: 1em 15em 0 0;
-    background-color: white;
-    box-shadow: 10px 10px 20px black;
-
-}
-
-#texto h3 {
-    font-size: 30px;
-    margin-top: 1em;
-}
-
-#texto p {
-    height: 400px;
-    font-size: 23px;
-    color: black;
-    text-align: left;
-    transition: 0.5s;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 30px;
-    overflow: hidden
-}
-
-#carrera {
-    width: 80em;
-    display: flex;
-    justify-content: end;
-    align-items: ;
-}
-
-img#bocadillo {
-    width: 200px;
-}
-
-
-
 /* -------CAMBIAR EL NEON DE LA PESTAÑA EN LA QUE ESTOY-------- */
-.nombres  p.nav2 {
+.nombres  p.nav4 {
     font-size: 27px;
     font-weight: 400;
     font-family: 'Press Start 2P', cursive;
@@ -261,11 +190,6 @@ img#bocadillo {
       0 0 120px #0ff;
 }
 
-/* ------------------------------------------------------ */
-
-
-
-
 ul.nombres li p {
     font-size: 35px;
     color: white;
@@ -273,6 +197,82 @@ ul.nombres li p {
     text-shadow: 0.3rem 0.3rem black;
     transition: 0.5s;
     margin-left: 20px;
+}
+
+/* ------------------------------------------------------ */
+
+
+section {
+    width: 100%;
+    height: 100%;
+}
+
+.apartado {
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+}
+
+.apartado h2 {
+    font-size: 90px;
+    color: rgb(255, 255, 255);
+    font-family: 'Grechen Fuemen', cursive;text-shadow: 2px 0 rgba(255,0,0,.9), -2px 0 rgba(0,0,255,.9);
+}
+
+.doble {
+    width: 100%;
+    height: 54%;
+    display: flex;
+}
+
+.doble1 {
+    width: 30%;
+}
+
+.doble2 {
+    width: 70%;
+}
+
+/* ----------FOTOS------- */
+
+.contenedorfotos {
+    width: 100%;
+    height: 100%;
+
+    
+}
+
+.columna {
+    display: flex;
+    width: 100%;
+    height: 20em;
+    margin-left: 13%;
+}
+
+.columna1 {
+    margin-top: 6em;
+}
+
+.columna div {
+    width: 20em;
+    height: 14em;
+    background-color: white;
+    clip-path: circle(30% at center);
+    transition: 2s;
+    border: 2px solid black;
+}
+
+.columna div:hover {
+    clip-path: circle(55% at center);
+    border: 5px solid rgb(234, 0, 255);
+}
+
+
+
+.columna div img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
 }
 
 

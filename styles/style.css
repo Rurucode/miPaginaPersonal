@@ -24,10 +24,13 @@ ul {
 }
 
 body {
-    background-image: url(../assets/img/fondo2.jpg);
+    /* background-image: url(../assets/img/fondo2.jpg); */
+    background-image: url(/assets/img/xxxxx.jpg);
     object-fit: contain;
     background-repeat: no-repeat;
-    background-size: cover  ;
+    background-size: cover;
+    overflow: hidden;
+
 }
 
 #home {
