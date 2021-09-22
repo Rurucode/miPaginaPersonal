@@ -162,7 +162,7 @@ ul.nombres {
 /* ------FONDO-------- */
 body {
     /* background-image: url(../assets/img/fondo2.jpg); */
-    background-image: url(/assets/img/xxxxx.jpg);
+    background-image: url(../assets/img/xxxxx.jpg);
     object-fit: contain;
     background-repeat: no-repeat;
     background-size: cover  ;
