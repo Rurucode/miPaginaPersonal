@@ -1,4 +1,5 @@
-Hola! Recomiendo usar la pagina a una resolucion de 1920x1080. 
+Hola! Recomiendo usar la pagina a una resolucion de 1920x1080.
+NO SE PORQUE AL ABRIRLO DESDE EL INDEX EL FONDO NO SE VE. PERO SI LO ABRES DESDE VISUAL ESTUDIO CON LIVE SERVER SI QUE FUNCIONA!!!!!!!! 
 No me ha dado tiempo a hacerla responsive, pero he invertido muchas horas en ella.
 Espero que te guste, y recuerda jugar con el Camion en la pagina de Biografia!!
 
