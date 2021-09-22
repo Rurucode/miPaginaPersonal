@@ -173,7 +173,6 @@ main {
 
 section#biog {
     display: flex;
-    justify-content: flex-end;
     align-items: flex-end;
     flex-direction: column;
     height: 100%;
@@ -203,8 +202,9 @@ section#biog {
     flex-direction: column;
     align-items: center;
     width: 60%;
+    height: 60%;
     border-radius: 6px 6px 6px 6px;
-    margin: 5em 15vw 0 0;
+    margin: 1em 15em 0 0;
     background-color: white;
     box-shadow: 10px 10px 20px black;
 }
