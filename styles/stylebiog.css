@@ -1,0 +1,273 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style: none;
+    font-family: 'Grechen Fuemen', cursive;
+ }
+
+ /* HEADER/TITULO */
+ #titulo h1 {
+    font-size: 65px;
+    font-weight: 400;
+    font-family: 'Press Start 2P', cursive;
+    text-shadow:
+      0 0 5px #fff,
+      0 0 10px #fff,
+      0 0 20px rgba(255, 255, 255, 0.664),
+      0 0 40px #0ff,
+      0 0 60px #0ff,
+      0 0 70px #0ff,
+      0 0 80px #0ff,
+      0 0 120px #0ff;
+  }
+  
+#titulo p {
+  font-size: 30px;
+}
+  
+#titulo p, #titulo h1 {
+  color: #fff;
+  margin-left: 3%;
+}
+  
+  #titulo img {
+      width: 150px;
+  }
+
+    /* TITULO NEON */
+#titulo {
+    width: 100%;
+    height: 20vh;
+}
+
+#titulo {
+  height: 15vh;  
+  background: #222; 
+  color: #fff;
+  text-shadow: 2px 0 rgba(255,0,0,.9), -2px 0 rgba(0,0,255,.9);
+  font-family: 'Source Code Pro';
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  flex-wrap: wrap;
+
+}
+/* FIN TITULO NEON */
+
+
+  /* ------------FIN HEADER--------------- */
+
+
+/* NAVEGACION */
+ nav {
+     width: 30vw;
+     height: 100%;
+     display: flex;
+ }
+
+ul.navfotos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 9vw;
+    height: 100%;
+    margin-left: 4em ;
+}
+
+
+
+nav img {
+    width: 100%;
+    transition: 0.6s;
+}
+
+ nav img:hover {
+    transform: scale(1.1) translateX(-2em);
+    
+}
+
+
+#home {
+    width: 6vw;
+    height: 6vh;
+    margin: 0 0 2em 0;
+
+
+}
+
+#biografia, #contacto {
+    margin: 2em 0 2em 0;
+}
+
+#portfolio {
+    margin: 2em 0 10em 0;
+}
+
+#biografia, #contacto, #portfolio {
+    width: 7vw;
+    height: 7vh;
+}
+
+
+
+#portfolio img {
+    width: 80%;
+}
+
+a {
+    width: 100%;
+    height: 100%;
+}
+
+#foto1 {
+}
+
+#foto2 {
+    width: 90%;
+}
+
+ul.nombres {
+    width: 10vw;
+    display: flex;
+    flex-direction: column;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nombres li {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    opacity: 100%;
+}
+
+.nombres li:last-child {
+    margin-bottom: 8em;
+}
+
+
+
+
+
+
+/* ------FONDO-------- */
+body {
+    background-image: url(../assets/img/fondo2.jpg);
+    object-fit: contain;
+    background-repeat: no-repeat;
+    background-size: cover  ;
+}
+
+/* -------------MAIN------------- */
+
+main {
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+section#biog {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    height: 100%;
+}
+
+#biog {
+    display: flex;
+    width: 100%;
+}
+
+#biog img {
+    width: 30%;
+    margin-bottom: 0em;
+    transition: 4s;
+    flex-wrap: nowrap;
+
+}
+
+#coche:hover {
+    transform: translateX(-80em);
+}
+
+
+
+#texto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    border-radius: 6px 6px 6px 6px;
+    margin: 5em 15vw 0 0;
+    background-color: white;
+    box-shadow: 10px 10px 20px black;
+}
+
+#texto h3 {
+    font-size: 30px;
+    margin-top: 1em;
+}
+
+#texto p {
+    height: 400px;
+    font-size: 23px;
+    color: black;
+    text-align: left;
+    transition: 0.5s;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px;
+}
+
+#carrera {
+    width: 80em;
+    display: flex;
+    justify-content: end;
+    align-items: ;
+}
+
+img#bocadillo {
+    width: 200px;
+}
+
+
+
+/* -------CAMBIAR EL NEON DE LA PESTAÑA EN LA QUE ESTOY-------- */
+.nombres  p.nav2 {
+    font-size: 27px;
+    font-weight: 400;
+    font-family: 'Press Start 2P', cursive;
+    text-shadow:
+      0 0 5px #fff,
+      0 0 10px #fff,
+      0 0 20px rgba(255, 255, 255, 0.664),
+      0 0 40px #0ff,
+      0 0 60px #0ff,
+      0 0 70px #0ff,
+      0 0 80px #0ff,
+      0 0 120px #0ff;
+}
+
+/* ------------------------------------------------------ */
+
+
+
+
+ul.nombres li p {
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    text-shadow: 0.3rem 0.3rem black;
+    transition: 0.5s;
+    margin-left: 20px;
+}
+
+
+
+
+
